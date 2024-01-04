@@ -2,7 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&family=Work+Sans&display=swap");
 
-/* Navigation BAR Styles */
+/* Common Styles */
+body {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+/* Navigation Bar Styles */
 
 .nav-title {
   display: flex;
@@ -14,11 +20,11 @@
   color: #3a3a3a;
   font-size: 24px;
   font-weight: 700;
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 
 .menu-items {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .menu-items a {
@@ -32,6 +38,44 @@
 .menu-items i {
   margin-left: 34px;
 }
+
+/* Website Body Part */
+
+.body-main {
+  display: flex;
+}
+.body-text {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+}
+.body-text p {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.body-text button {
+  background-color: #e02c6d;
+  border-radius: 41px;
+  padding: 10px 24px;
+  gap: 8px;
+  border: 0px;
+  color: #fff;
+  font-size: 16px;
+}
+.body-img{
+  margin-top: 50px;
+}
+.bg-img{
+  position: absolute;
+  right: 100px;
+}
+.main-img{
+position: absolute;
+right: 100px;
+}
+
+/* Media Quires Styles */
 
 @media screen and (max-width: 576px) {
   .nav-title {
