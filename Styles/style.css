@@ -63,21 +63,22 @@ body {
   color: #fff;
   font-size: 16px;
 }
-.body-img{
+.body-img {
   margin-top: 50px;
 }
-.bg-img{
+.bg-img {
   position: absolute;
   right: 100px;
 }
-.main-img{
-position: absolute;
-right: 100px;
+.main-img {
+  position: absolute;
+  right: 100px;
 }
 
 /* Media Quires Styles */
 
 @media screen and (max-width: 576px) {
+  /* Navigation Bar Styles */
   .nav-title {
     display: flex;
     justify-content: center;
@@ -88,5 +89,22 @@ right: 100px;
   .menu-items {
     margin-right: 10px;
     display: none;
+  }
+
+  /* Body Main Part */
+  .body-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .body-img{
+    padding: 50px;
+  }
+  .main-img {
+    position: absolute;
+    right: 1px;
+  }
+  .bg-img {
+    position: absolute;
+    left: 0px;
   }
 }
