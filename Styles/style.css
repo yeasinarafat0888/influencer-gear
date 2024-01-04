@@ -4,7 +4,7 @@
 
 /* Navigation BAR Styles */
 
-.nav-tiitle{
+.nav-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,18 +17,32 @@
   margin-left: 120px;
 }
 
-.menu-items{
+.menu-items {
   margin-right: 120px;
 }
 
-.menu-items a{
+.menu-items a {
   text-decoration: none;
-  color: #3A3A3A;
+  color: #3a3a3a;
   font-size: 16px;
   font-weight: 600;
   margin-left: 34px;
 }
 
-.menu-items i{
+.menu-items i {
   margin-left: 34px;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-title {
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    margin-left: 0px;
+  }
+  .menu-items {
+    margin-right: 10px;
+    display: none;
+  }
 }
